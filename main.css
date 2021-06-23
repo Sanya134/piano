@@ -2,32 +2,32 @@ body{
     background-color: palevioletred;
 }
  #container{
-    position: absolute;
+    position: relative;
     margin:auto;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     border: 0.5vmin solid black;
-    width: 98vmin;
-    height: 33vmin;
+    width: 840px;
+    height: 250px;
 
  }
  .whiteNode{
-     background-color: white;
-     height: 100%;
-     box-sizing: border-box;
-     width: 7vmin;
-     float: left;
-     border-right: 0.1vmin solid black;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    box-sizing: border-box;
+    width: 60px;
+    border-right: 0.1vmin solid black;
     
  }
  .blackNode{
-     background-color : black;
-     height: 65%;
-     width: 3.5vmin;
-     transform: translateX(5.5vmin);
-
+    position: absolute;
+    background-color : black;
+    height: 65%;
+    width: 30px;
+    float: left;
  }
  
 
